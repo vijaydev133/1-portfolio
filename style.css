@@ -2,11 +2,7 @@
   background-color: #7e1814;
   color: #fefefa;
   height: 262px;
-  font-family: "Lato", sans-serif;
-  font-family: "Lora", serif;
-  font-family: "Noto Sans", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
+ 
 }
 
 .top1 {
@@ -18,8 +14,10 @@
   margin-bottom: 15px;
 }
 
-.top1 p {
+.top1 a {
   font-size: 25px;
+  font-style: normal;
+
 }
 .top-left {
   margin-top: 69px;
@@ -92,7 +90,7 @@
   color: #712221;
 }
 
-.left-summary {
+.bottom-space {
   margin-bottom: 40px;
 }
 
