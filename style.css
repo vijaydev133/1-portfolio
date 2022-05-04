@@ -78,11 +78,13 @@
   font-family: "Noto Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  margin-bottom: -14px;
+  margin-bottom: -10px;
 }
 
 .down hr {
-  margin-top: px;
+  background-color: #7e1814;
+  height: 1px;
+  border: none;
 }
 
 .down h2,
