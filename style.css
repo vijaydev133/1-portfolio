@@ -1,8 +1,7 @@
 .top {
-  background-color: #7e1814;
+  background-color: red; /*#7e1814;*/
   color: #fefefa;
-  height: 262px;
- 
+  height: 261px;
 }
 
 .top1 {
@@ -10,14 +9,13 @@
   margin-top: 100px;
 }
 .top1 h1 {
-  font-size: 40px;
-  margin-bottom: 15px;
+  font-size: 37px;
+  margin-bottom: 20px;
 }
 
 .top1 a {
   font-size: 25px;
   font-style: normal;
-
 }
 .top-left {
   margin-top: 69px;
@@ -27,11 +25,10 @@
   font-family: "Lato", sans-serif;
   font-family: "Lora", serif;
   font-family: "Noto Sans", sans-serif;
-  font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  margin-left: 450px;
-  margin-top: 72px;
+  margin-left: 500px;
+  margin-top: 70px;
   text-align: end;
 }
 
@@ -70,13 +67,13 @@
 }
 
 .down h2 {
-  font-size: 21px;
+  font-size: 19px;
   font-family: "Lato", sans-serif;
   font-family: "Lora", serif;
   font-family: "Noto Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  margin-bottom: -10px;
+  margin-bottom: -15px;
 }
 
 .down hr {
@@ -91,7 +88,7 @@
 }
 
 .bottom-space {
-  margin-bottom: 40px;
+  margin-bottom: 46px;
 }
 
 .l-ks {
@@ -110,5 +107,6 @@
   display: inline-block;
   padding: 8px;
   border-radius: 5px;
+
   margin-bottom: 12px;
 }
