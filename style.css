@@ -66,6 +66,10 @@
   margin: 0px auto;
 }
 
+.down{
+  line-height: 25px;
+}
+
 .down h2 {
   font-size: 19px;
   font-family: "Lato", sans-serif;
@@ -78,8 +82,8 @@
 
 .down hr {
   background-color: #7e1814;
-  height: 1px;
-  border: none;
+ 
+  
 }
 
 .down h2,
@@ -109,4 +113,17 @@
   border-radius: 5px;
 
   margin-bottom: 12px;
+}
+
+
+.right h3, .right h4{
+      display: inline;
+}
+
+.right-professional-experience h3{
+  margin-right: 170px;
+}
+
+.right-professional-experience h4{
+  margin-right: 285px;
 }
