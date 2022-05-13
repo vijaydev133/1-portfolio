@@ -117,13 +117,13 @@
 
 .bottom-right h3 {
   color: #7d2624;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
 }
 
 .bottom-right h4 {
   font-size: 13px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .bottom-right h3,
@@ -131,35 +131,44 @@
   display: inline-block;
   margin-bottom: 10px;
   font-size: 12px;
+  font-weight: bold;
 }
 
 .bottom-right span {
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .right-professional-experience .span1 {
-  margin-left: 70px;
+  margin-left: 94px;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .right-professional-experience .span2 {
-  margin-left: 160px;
+  margin-left: 182px;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
 }
 
-.right-professional-experience ul {
+.right-professional-experience ul li {
   margin-left: 19px;
   font-family: "Roboto", sans-serif;
   font-size: 11px;
 }
 
+.right-professional-experience ul {
+  margin-bottom: 5px;
+}
+
+.right-professional-experience {
+  margin-bottom: 45px;
+}
+
 .right-education .span1 {
-  margin-left: 240px;
+  margin-left: 262px;
 }
 
 .right-education .span2 {
-  margin-left: 124px;
+  margin-left: 150px;
 }
