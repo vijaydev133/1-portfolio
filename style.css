@@ -7,6 +7,16 @@
 
 .fl {
   display: flex;
+  align-items: center;
+  height: 209px;
+}
+
+.top-left {
+  flex-grow: 2;
+}
+
+.top-right {
+  flex-grow: 1;
 }
 
 .top-left a {
@@ -22,20 +32,12 @@
   display: inline-block;
 }
 
-.top-left {
-  margin-top: 52px;
-}
-
-.top-right {
-  margin-top: 58px;
-}
 .top-left i {
   font-size: 12px;
 }
 
 .top-right {
   text-align: end;
-  margin-left: 367px;
 }
 
 .top-right h1 {
@@ -73,7 +75,7 @@
 }
 
 .bottom-left {
-  width: 300px;
+  flex-basis: 40%;
   margin-right: 25px;
 }
 
@@ -100,19 +102,25 @@
 
 .l-ks {
   text-align: center;
-  margin-top: -5px;
 }
 
-.left-technical-skills .outer {
+.left-technical-skills span {
+  background-color: #7e1814;
+  color: #fffefc;
   display: inline-block;
-  font-family: "Noto Sans", sans-serif;
   font-size: 11px;
+  padding: 3px 11px;
+  border-radius: 5px;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 8px;
 }
 
-.left-technical-skills .inner {
-  font-weight: bold;
-  font-family: "Open Sans", sans-serif;
-  font-size: 11px;
+.l-ts {
+  text-align: center;
+}
+
+.bottom-right {
+  flex-basis: 60%;
 }
 
 .bottom-right h3 {
@@ -140,13 +148,13 @@
 }
 
 .right-professional-experience .span1 {
-  margin-left: 94px;
+  margin-left: 135px;
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
 
 .right-professional-experience .span2 {
-  margin-left: 182px;
+  margin-left: 80px;
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
@@ -166,9 +174,31 @@
 }
 
 .right-education .span1 {
-  margin-left: 262px;
+  margin-left: 198px;
 }
 
 .right-education .span2 {
-  margin-left: 150px;
+  margin-left: 125px;
+}
+
+.right-education .span3 {
+  margin-left: 230px;
+}
+
+.right-education .span4 {
+  margin-left: 255px;
+}
+
+.right-education .span5 {
+  margin-left: 226px;
+}
+
+.right-education .span6 {
+  margin-left: 255px;
+}
+
+.right-Projects li {
+  margin-left: 15px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
 }
